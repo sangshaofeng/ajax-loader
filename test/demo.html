@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ajaxLoader</title>
+</head>
+<body>
+
+<button id="start">start</button>
+<button id="finish">finish</button>
+
+<script src="../dist/ajaxLoader.js"></script>
+<script>
+
+  var ajaxLoader = new AjaxLoader();
+  var startBtn = document.querySelector('#start');
+  startBtn.addEventListener('click', function () {
+    ajaxLoader.start();
+  })
+  var finishBtn = document.querySelector('#finish');
+  finishBtn.addEventListener('click', function () {
+    ajaxLoader.finish();
+  })
+
+</script>
+</body>
+</html>

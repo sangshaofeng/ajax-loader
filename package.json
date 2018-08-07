@@ -1,0 +1,14 @@
+{
+  "name": "ajax-loader",
+  "version": "1.0.0",
+  "description": "A loder while an ajax request\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D is on\u001b[C\u001b[request",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sangshaofeng",
+  "license": "ISC"
+}
